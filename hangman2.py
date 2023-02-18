@@ -30,7 +30,7 @@ def hangman():
         
         wordList = [letter if letter in used_letters else '-' for letter in word]
         print('Current word: ', ' '.join(wordList))
-        print('\n')        
+        print('\n')        p
 
         user = input("Guess a letter: ").upper()
         if user in alphabet - used_letters:
