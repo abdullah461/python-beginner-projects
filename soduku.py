@@ -42,7 +42,7 @@ def solve_soduku(puzzle):
     # solve soduku using backtracking!
     # our puzzle is a list of lists, where each inner list is a row in our soduku puzzle
     # return whether a solution (if solution exists)
-    
+                    
     # step 1: choose somewhere on the puzzle to make a guess
 
     row, col = find_next_empty(puzzle)
